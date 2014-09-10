@@ -25,4 +25,14 @@
         android:text="Take me to Conor's screen" 
         android:onClick="secondScreen"/>
 
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="30dp"
+        android:layout_toRightOf="@+id/textView1"
+        android:text="Go to Alecia" 
+        android:onClick="thirdScreen"/>
+
 </RelativeLayout>

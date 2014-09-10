@@ -41,4 +41,11 @@ public class MainActivity extends Activity {
 		Intent intent = new Intent(this, SecondScreen.class);
 		startActivity(intent);
 	}
+	
+	public void thirdScreen (View view) {
+		Intent intent = new Intent(this, ThirdScreen.class);
+		startActivity(intent);
+	}
+	
+	
 }
