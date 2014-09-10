@@ -23,6 +23,6 @@
         android:layout_marginLeft="23dp"
         android:layout_marginTop="44dp"
         android:text="Take me to Conor's screen" 
-        android:onClick="notHappy"/>
+        android:onClick="secondScreen"/>
 
 </RelativeLayout>
