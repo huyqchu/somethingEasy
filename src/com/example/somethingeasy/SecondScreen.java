@@ -1,9 +1,11 @@
 package com.example.somethingeasy;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class SecondScreen extends Activity {
 
@@ -30,5 +32,9 @@ public class SecondScreen extends Activity {
 			return true;
 		}
 		return super.onOptionsItemSelected(item);
+	}
+	public void mainScreen (View view){
+		Intent intent1 = new Intent(this, MainActivity.class);
+		startActivity(intent1);
 	}
 }
