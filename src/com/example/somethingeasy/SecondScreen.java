@@ -37,4 +37,8 @@ public class SecondScreen extends Activity {
 		Intent intent1 = new Intent(this, MainActivity.class);
 		startActivity(intent1);
 	}
+	public void thirdScreen (View view){
+		Intent intent5 = new Intent(this, ThirdScreen.class);
+		startActivity(intent5);
+	}
 }
